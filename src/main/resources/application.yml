@@ -1,0 +1,15 @@
+server:
+  port: 8099
+
+spring:
+  application:
+    # 应用程序名字
+    name: springcloud-porduct
+  datasource: # 数据源
+    url: jdbc:mysql://localhost:3306/homestay?characterEncoding=utf8&useSSl=false&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123@qwe
+  jackson:
+    date-format: 'yyyy-MM-dd' #格式化json
+
